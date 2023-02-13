@@ -2,7 +2,7 @@ import { useEffect, useState } from "react"
 import { ethers } from "ethers"
 import StakingContractABI from "./constants/abi.json"
 import "./App.css"
-const stakingContractAddress = "0xDC0eb8881E7A7e836E2427191D4855A3E611D987"
+const stakingContractAddress = "0xc3a58Ce2162daeB646613eA753E60AB260C69955"
 
 function App() {
     const [accountAddress, setAccountAddress] = useState("")
